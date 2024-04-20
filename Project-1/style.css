@@ -50,7 +50,7 @@
   text-align: center;
   width: 758px;
   height: 472px;
-  background-color:rgba(255, 255, 255, 0.82);
+  background-color: rgba(255, 255, 255, 0.82);
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -89,4 +89,36 @@
   font-family: "Raleway";
   cursor: pointer;
   z-index: 1;
+}
+
+.second_section {
+  background-color: #2a3b40;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 85px;
+}
+.second_section .indian {
+  width: 553px;
+  height: 155px;
+}
+.second_section .indian .indian1 {
+  font-size: 29px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Raleway";
+}
+.second_section .indian .indian2 {
+  margin-top: 47px;
+  font-size: 19px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Raleway";
+}
+
+.second_section .img1 img{
+  width: 527px;
+  height: 354px;
+  margin: 70px auto 68px auto;
 }
