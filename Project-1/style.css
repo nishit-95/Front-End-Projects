@@ -14,15 +14,21 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.logo {
+.logo{
   font-size: 35px;
-  color: #ffffff;
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   margin-top: 63px;
   margin-left: 180px;
+  
+}
+
+.logo a{
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .menu {
